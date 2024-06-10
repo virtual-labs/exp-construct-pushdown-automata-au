@@ -1,6 +1,3 @@
-# FLA_Exp_8
-
-
 
 ## Getting started
 
