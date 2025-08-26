@@ -1,4 +1,4 @@
-<u><h3>Theory</h3></u>
+<h3>Theory</h3>
 <h5>Pushdown Automata (PDA)</h5>
 <p>A push down automata (PDA) is a way to implement a context free grammar (CFG) in a similar way to design the deterministic finite automata (DFA) for a regular grammar.A DFA can remember a finite amount of information, but a PDA can remember an infinite amount of information.
 </p>
