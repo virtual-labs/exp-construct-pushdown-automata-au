@@ -1,4 +1,4 @@
-<u><b>procedure</b></u>
+<h3>procedure</h3>
 <p>construct a pushdown automata for the language L=0<sup>n</sup>1<sup>n</sup> | n>=0  </p>
 <p>In the given langauge  <b>L=0<sup>n</sup>1<sup>n</sup> | n>=0 </b>, the number of zeros and ones are in equal numbers. For example, if we consider the string "0011," the number of zeros and ones are equal.</p>
 
