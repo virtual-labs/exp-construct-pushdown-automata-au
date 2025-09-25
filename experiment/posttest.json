@@ -2,38 +2,106 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In the context of pushdown automata, what is the main purpose of the stack?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To store input symbols.",
+        "b": "To store intermediate results during computation.",
+        "c": "To store the transition rules.",
+        "d": "To store the final output."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. The stack is not used to store the input symbols directly; the input is read sequentially.",
+        "b": "Correct! The stack is used to store intermediate results and memory needed for recognizing context-free languages.",
+        "c": "Incorrect. Transition rules are part of the PDA definition, not stored on the stack.",
+        "d": "Incorrect. The stack does not store the final output."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What distinguishes a pushdown automaton (PDA) from a finite automaton (FA)?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The PDA has an infinite tape.",
+        "b": "The PDA has a stack for additional memory.",
+        "c": "The PDA can recognize only regular languages.",
+        "d": "The PDA uses transition rules instead of states."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. PDAs do not have an infinite tape like a Turing machine.",
+        "b": "Correct! The stack provides additional memory, enabling the PDA to recognize context-free languages.",
+        "c": "Incorrect. PDAs can recognize context-free languages, not just regular languages.",
+        "d": "Incorrect. PDAs still use states along with transitions."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which type of languages can be recognized by a pushdown automaton (PDA) but not necessarily by a finite automaton (FA)?",
+      "answers": {
+        "a": "Regular languages",
+        "b": "Context-free languages",
+        "c": "Context-sensitive languages",
+        "d": "All languages"
+      },
+      "explanations": {
+        "a": "Incorrect. Finite automata can already recognize regular languages.",
+        "b": "Correct! PDAs are capable of recognizing context-free languages which may not be regular.",
+        "c": "Incorrect. Context-sensitive languages require a linear bounded automaton, not a PDA.",
+        "d": "Incorrect. PDAs cannot recognize all languages (e.g., non-context-free languages)."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How does a PDA process an input string differently than an FA?",
+      "answers": {
+        "a": "It reads the input string twice.",
+        "b": "It uses the stack to store symbols and make decisions based on both input and stack content.",
+        "c": "It only reads every other symbol in the string.",
+        "d": "It ignores the input and only processes stack content."
+      },
+      "explanations": {
+        "a": "Incorrect. A PDA processes the input sequentially, not multiple times necessarily.",
+        "b": "Correct! The stack allows the PDA to make decisions based on both input symbols and the current stack content.",
+        "c": "Incorrect. PDAs read all input symbols sequentially.",
+        "d": "Incorrect. The input is always processed along with the stack."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is a configuration of a pushdown automaton (PDA)?",
+      "answers": {
+        "a": "The set of states in the PDA",
+        "b": "The current state, remaining input, and current stack contents",
+        "c": "The transition table of the PDA",
+        "d": "The set of terminal symbols"
+      },
+      "explanations": {
+        "a": "Incorrect. A configuration is not just the set of states.",
+        "b": "Correct! A configuration represents the current state, remaining input, and the stack content at a point in computation.",
+        "c": "Incorrect. Transition table defines rules but not the current configuration.",
+        "d": "Incorrect. Terminals are part of the input alphabet, not configurations."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which acceptance methods are used by a PDA?",
+      "answers": {
+        "a": "By final state or empty stack",
+        "b": "By input length",
+        "c": "By number of states",
+        "d": "By stack size only"
+      },
+      "explanations": {
+        "a": "Correct! A PDA accepts input if it reaches a final state or if the stack is empty after processing.",
+        "b": "Incorrect. Input length alone does not determine acceptance.",
+        "c": "Incorrect. Number of states is not an acceptance criterion.",
+        "d": "Incorrect. Stack size alone does not guarantee acceptance."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
     }
   ]
 }
