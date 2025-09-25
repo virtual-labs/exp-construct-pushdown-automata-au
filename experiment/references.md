@@ -1,4 +1,4 @@
-### References
+
 
 1. **Pushdown Automata Introduction – Tutorialspoint**  
    An introductory guide covering the fundamentals of PDAs, including their structure, functionality, and significance in automata theory.  

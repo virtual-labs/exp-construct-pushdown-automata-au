@@ -1,4 +1,4 @@
-### Procedure
+
 
 #### Step 1 — Select a Pushdown Automaton
 - In the left panel titled “Select a Pushdown Automaton,” click one of the example buttons (e.g., L = 0^n1^n, Balanced Parentheses, or Palindrome W C W^R).
