@@ -1,4 +1,4 @@
-### Theory
+
 
 <h4>Pushdown Automata (PDA)</h4>
 <p>
